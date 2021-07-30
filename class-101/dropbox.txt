@@ -1,0 +1,54 @@
+dropbox is cloud storage service which allow us to store our file remotly.
+this storage space alow us to access from data fro any where and from any device.
+
+..............................
+
+pip3 install dropbox
+...............................
+howdoi upload files to dropbox using python
+
+create a new file  cloudStorage.py
+.....................................................
+path to upload folder
+.....................................................
+Enter the folder path to transfer : -c:/class-python/class-101
+enter the full path to upload to dropbox:- /PythonFolder4514/
+file has been moved !!!
+PS C:\class-python> 
+............................................
+ 
+files_upload():- is used to upload files to cloud destination
+...................................................................
+
+r:- read
+b:- binary
+..........................................................
+
+steps to generate access token
+ go to settings
+
+ under:-Access token expiration
+change from "short term" to "No expiration"
+
+.............................................................
+
+pemissions:--
+
+
+Account Info:-
+Permissions that allow your app to view and manage Dropbox account info
+........
+account_info.write:----   View and edit basic information about your Dropbox account such as your profile photo
+account_info.read:-----  View basic information about your Dropbox account such as your username, email, and country
+
+
+Files and folders:-
+Permissions that allow your app to view and manage files and folders
+.........
+files.metadata.write:----   View and edit information about your Dropbox files and folders
+files.metadata.read:-----   View information about your Dropbox files and folders
+
+............................................................................................
+
+files.content.write:----  Edit content of your Dropbox files and folders
+files.content.read:-----   View content of your Dropbox files and folders
